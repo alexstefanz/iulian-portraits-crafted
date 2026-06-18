@@ -12,6 +12,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Relicta";
+  src: url("./assets/fonts/Relicta-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
 /*
  * Design system definition.
  *
@@ -68,7 +76,7 @@
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
   --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
-  --font-display: "Mariella Noeve", "Playfair Display", ui-serif, Georgia, serif;
+  --font-display: "Relicta", "Mariella Noeve", "Playfair Display", ui-serif, Georgia, serif;
 }
 
 :root {
@@ -163,4 +171,15 @@
 @utility text-stroke {
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.25);
   color: transparent;
+}
+
+@keyframes hero-gradient-shift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+@utility hero-animated-bg {
+  background: linear-gradient(135deg, #2d2d2d 0%, #000000 50%, #2d2d2d 100%);
+  background-size: 200% 200%;
+  animation: hero-gradient-shift 12s ease-in-out infinite;
 }
