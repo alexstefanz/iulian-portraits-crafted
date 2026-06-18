@@ -31,7 +31,7 @@ export function Hero() {
         <img
           src={iulianAsset.url}
           alt="Iulian Corbu — fotograf"
-          className="h-[45vh] sm:h-[51vh] md:h-[58vh] w-auto object-contain drop-shadow-[0_20px_40px_rgba(0,0,0,0.5)]"
+          className="h-[50vh] sm:h-[56vh] md:h-[64vh] w-auto object-contain drop-shadow-[0_20px_40px_rgba(0,0,0,0.5)]"
         />
       </div>
 
