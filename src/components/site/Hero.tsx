@@ -13,10 +13,9 @@ export function Hero() {
           className="font-display font-light leading-[0.85] text-center whitespace-nowrap"
           style={{ fontSize: "clamp(2rem, 7.5vw, 8.5rem)" }}
         >
-          <span className="block text-white">POVEȘTILE</span>
+          <span className="block text-white">FOTOGRAF</span>
           <span className="block">
-            <span className="inline-block mr-[0.25em] text-white">LUI</span>
-            <span className="inline-block ml-[0.25em] translate-x-[5vw] text-[#F6AD1A]">IULIAN</span>
+            <span className="inline-block text-[#F6AD1A]">CORBU IULIAN</span>
           </span>
         </h1>
       </div>
