@@ -7,7 +7,7 @@ export function Hero() {
       className="relative flex min-h-screen items-end justify-center overflow-hidden pt-28 pb-16"
     >
       {/* Massive background typography */}
-      <div className="pointer-events-none absolute inset-0 flex flex-col items-center justify-center px-4 z-[1]">
+      <div className="pointer-events-none absolute top-0 left-0 right-0 flex flex-col items-center justify-start pt-44 sm:pt-48 px-4 z-[1]">
         <h1
           aria-hidden
           className="font-display font-light leading-[0.85] text-center whitespace-nowrap"
