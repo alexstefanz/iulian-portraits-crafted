@@ -178,6 +178,12 @@
   50% { background-position: 100% 50%; }
 }
 
+@utility site-animated-bg {
+  background: linear-gradient(135deg, #2d2d2d 0%, #000000 50%, #2d2d2d 100%);
+  background-size: 200% 200%;
+  animation: hero-gradient-shift 12s ease-in-out infinite;
+}
+
 @utility hero-animated-bg {
   background: linear-gradient(135deg, #2d2d2d 0%, #000000 50%, #2d2d2d 100%);
   background-size: 200% 200%;

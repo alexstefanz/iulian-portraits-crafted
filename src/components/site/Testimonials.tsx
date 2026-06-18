@@ -34,7 +34,7 @@ export function Testimonials() {
           {items.map((t) => (
             <article
               key={t.name}
-              className="rounded-2xl bg-card p-8 border border-white/5 transition-transform hover:-translate-y-1"
+              className="rounded-2xl bg-white/[0.04] backdrop-blur-sm p-8 border border-white/10 transition-transform hover:-translate-y-1"
             >
               <Quote className="h-8 w-8 text-accent" />
               <p className="mt-6 italic text-muted-foreground leading-relaxed">

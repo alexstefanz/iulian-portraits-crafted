@@ -60,7 +60,7 @@ export function Contact() {
   }
 
   return (
-    <section id="contact" className="py-24 md:py-32 bg-[#262626]">
+    <section id="contact" className="py-24 md:py-32">
       <div className="mx-auto grid max-w-7xl gap-12 px-6 md:grid-cols-2 md:gap-16 lg:px-10">
         <div className="relative overflow-hidden rounded-2xl min-h-[420px]">
           <img
