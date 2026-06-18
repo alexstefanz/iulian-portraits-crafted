@@ -67,7 +67,7 @@ export function Testimonials() {
 
         <div className="relative grid gap-8 md:grid-cols-2 items-stretch rounded-2xl border border-white/10 bg-white/[0.03] overflow-hidden">
           <div className="order-2 md:order-1 flex flex-col justify-center p-8 md:p-12">
-            <p className="text-base md:text-lg italic text-muted-foreground leading-relaxed max-h-[420px] overflow-y-auto pr-2">
+            <p className="text-xs md:text-sm italic text-muted-foreground leading-relaxed max-h-[420px]">
               "{t.quote}"
             </p>
             <div className="mt-8 pt-6 border-t border-white/10">
