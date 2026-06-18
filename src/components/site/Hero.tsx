@@ -7,11 +7,11 @@ export function Hero() {
       className="relative flex min-h-screen items-end justify-center overflow-hidden pt-28 pb-16"
     >
       {/* Massive background typography */}
-      <div className="pointer-events-none absolute top-0 left-0 right-0 flex flex-col items-center justify-start pt-44 sm:pt-48 px-4 z-[1]">
+      <div className="pointer-events-none absolute top-0 left-0 right-0 flex flex-col items-center justify-start pt-52 sm:pt-56 px-4 z-[1]">
         <h1
           aria-hidden
           className="font-display font-light leading-[0.85] text-center whitespace-nowrap"
-          style={{ fontSize: "clamp(2.5rem, 11vw, 13rem)" }}
+          style={{ fontSize: "clamp(2rem, 7.5vw, 8.5rem)" }}
         >
           <span className="block text-white/[0.06]">POVEȘTILE</span>
           <span className="block text-stroke">LUI IULIAN</span>
@@ -31,7 +31,7 @@ export function Hero() {
         <img
           src={iulianAsset.url}
           alt="Iulian Corbu — fotograf"
-          className="h-[45vh] sm:h-[51vh] md:h-[58vh] w-auto object-contain drop-shadow-[0_20px_40px_rgba(0,0,0,0.5)]"
+          className="h-[50vh] sm:h-[56vh] md:h-[64vh] w-auto object-contain drop-shadow-[0_20px_40px_rgba(0,0,0,0.5)]"
         />
       </div>
 
