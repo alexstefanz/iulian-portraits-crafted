@@ -1,29 +1,46 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Header } from "@/components/site/Header";
+import { Hero } from "@/components/site/Hero";
+import { About } from "@/components/site/About";
+import { Awards } from "@/components/site/Awards";
+import { Testimonials } from "@/components/site/Testimonials";
+import { Benefits } from "@/components/site/Benefits";
+import { LatestStories } from "@/components/site/LatestStories";
+import { Contact } from "@/components/site/Contact";
+import { Blog } from "@/components/site/Blog";
+import { Faq } from "@/components/site/Faq";
+import { Footer } from "@/components/site/Footer";
+import { BackToTop } from "@/components/site/BackToTop";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Your App" },
-      { name: "description", content: "Replace this with a one-sentence description of your app." },
-      { property: "og:title", content: "Your App" },
-      { property: "og:description", content: "Replace this with a one-sentence description of your app." },
+      { title: "Iulian Corbu — Fotograf de nuntă & poveste" },
+      { name: "description", content: "Iulian Corbu — fotograf de nuntă din România. Imagini documentare, cinematografice și emoționante pentru ziua cea mai importantă." },
+      { property: "og:title", content: "Iulian Corbu — Fotograf de nuntă & poveste" },
+      { property: "og:description", content: "Fotografie de nuntă documentară, cinematografică și emoționantă." },
     ],
   }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
+    <div className="min-h-screen bg-background text-foreground scroll-smooth">
+      <Header />
+      <main>
+        <Hero />
+        <About />
+        <Awards />
+        <Testimonials />
+        <Benefits />
+        <LatestStories />
+        <Contact />
+        <Blog />
+        <Faq />
+      </main>
+      <Footer />
+      <BackToTop />
     </div>
   );
 }
