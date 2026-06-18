@@ -1,4 +1,4 @@
-import iulianAsset from "@/assets/iulian.png.asset.json";
+import iulianAsset from "@/assets/iulian-corbu2.png.asset.json";
 
 export function Hero() {
   return (
