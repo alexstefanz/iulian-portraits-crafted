@@ -4,7 +4,7 @@ export function Hero() {
   return (
     <section
       id="top"
-      className="relative flex min-h-screen items-end justify-center overflow-hidden pt-28 pb-16"
+      className="hero-animated-bg relative flex min-h-screen items-end justify-center overflow-hidden pt-28 pb-16"
     >
       {/* Massive background typography */}
       <div className="pointer-events-none absolute top-0 left-0 right-0 flex flex-col items-center justify-start pt-52 sm:pt-56 px-4 z-[1]">
@@ -14,7 +14,10 @@ export function Hero() {
           style={{ fontSize: "clamp(2rem, 7.5vw, 8.5rem)" }}
         >
           <span className="block text-white/[0.06]">POVEȘTILE</span>
-          <span className="block text-stroke">LUI IULIAN</span>
+          <span className="block text-stroke">
+            <span className="inline-block mr-[0.25em]">LUI</span>
+            <span className="inline-block ml-[0.25em]">IULIAN</span>
+          </span>
         </h1>
       </div>
 
