@@ -16,7 +16,7 @@ export function Hero() {
           <span className="block text-white/[0.06]">POVEȘTILE</span>
           <span className="block text-stroke">
             <span className="inline-block mr-[0.25em]">LUI</span>
-            <span className="inline-block ml-[0.25em] translate-x-[3vw]">IULIAN</span>
+            <span className="inline-block ml-[0.25em] translate-x-[5vw]">IULIAN</span>
           </span>
         </h1>
       </div>
