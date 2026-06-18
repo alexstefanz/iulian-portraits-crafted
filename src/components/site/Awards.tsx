@@ -1,8 +1,3 @@
-import a1 from "@/assets/award1.jpg";
-import a2 from "@/assets/award2.jpg";
-import a3 from "@/assets/award3.jpg";
-import a4 from "@/assets/award4.jpg";
-import a5 from "@/assets/award5.jpg";
 import aPortrait from "@/assets/award-portrait.png.asset.json";
 import aKiss from "@/assets/award-kiss.png.asset.json";
 import aDance from "@/assets/award-dance.png.asset.json";
@@ -11,17 +6,12 @@ const items = [
   { src: aPortrait.url, title: "Portret — Lumina poveștii", h: 1024 },
   { src: aKiss.url, title: "Sărut la apus", h: 900 },
   { src: aDance.url, title: "Dans în lumină", h: 900 },
-  { src: a1, title: "Best Wedding Story — 2024", h: 1280 },
-  { src: a2, title: "Fearless Award — 2023", h: 1024 },
-  { src: a3, title: "ISPWP — Top 20 Romance", h: 1440 },
-  { src: a4, title: "MyWed Award — Reception", h: 1024 },
-  { src: a5, title: "Junebug — Engagement", h: 1280 },
 ];
 
 export function Awards() {
   return (
     <section className="py-24 md:py-32">
-      <div className="mx-auto max-w-7xl px-6 lg:px-10">
+      <div className="px-6 lg:px-10">
         <div className="mb-14 flex flex-col md:flex-row md:items-end md:justify-between gap-6">
           <div>
             <span className="text-xs uppercase tracking-[0.3em] text-accent">Recunoaștere</span>
@@ -37,7 +27,7 @@ export function Awards() {
           {items.map((it) => (
             <figure
               key={it.title}
-              className="group relative overflow-hidden rounded-xl break-inside-avoid"
+              className="group relative overflow-hidden rounded-xl break-inside-avoid cursor-pointer"
             >
               <img
                 src={it.src}
@@ -45,7 +35,7 @@ export function Awards() {
                 loading="lazy"
                 width={1024}
                 height={it.h}
-                className="h-auto w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                className="h-auto w-full object-cover transition-transform duration-700 group-hover:scale-110"
               />
               <figcaption className="pointer-events-none absolute inset-0 flex items-end bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100">
                 <span className="p-6 text-sm font-semibold text-white">{it.title}</span>
