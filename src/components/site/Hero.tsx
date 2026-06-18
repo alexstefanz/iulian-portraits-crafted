@@ -21,15 +21,6 @@ export function Hero() {
         </h1>
       </div>
 
-      {/* Top subtitle */}
-      <div className="absolute top-32 left-1/2 -translate-x-1/2 z-[3] text-center px-4">
-        <p className="text-sm md:text-base text-muted-foreground">
-          <span className="mr-2">👋</span>
-          numele meu este Iulian și sunt fotograf de povești
-        </p>
-      </div>
-
-      {/* Photographer portrait */}
       <div className="relative z-[2] flex items-end justify-center">
         <img
           src={iulianAsset.url}
