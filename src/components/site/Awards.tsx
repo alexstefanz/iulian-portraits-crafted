@@ -3,8 +3,14 @@ import a2 from "@/assets/award2.jpg";
 import a3 from "@/assets/award3.jpg";
 import a4 from "@/assets/award4.jpg";
 import a5 from "@/assets/award5.jpg";
+import aPortrait from "@/assets/award-portrait.png.asset.json";
+import aKiss from "@/assets/award-kiss.png.asset.json";
+import aDance from "@/assets/award-dance.png.asset.json";
 
 const items = [
+  { src: aPortrait.url, title: "Portret — Lumina poveștii", h: 1024 },
+  { src: aKiss.url, title: "Sărut la apus", h: 900 },
+  { src: aDance.url, title: "Dans în lumină", h: 900 },
   { src: a1, title: "Best Wedding Story — 2024", h: 1280 },
   { src: a2, title: "Fearless Award — 2023", h: 1024 },
   { src: a3, title: "ISPWP — Top 20 Romance", h: 1440 },
