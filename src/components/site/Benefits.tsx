@@ -9,7 +9,7 @@ const items = [
 
 export function Benefits() {
   return (
-    <section className="py-24 md:py-32 bg-[#262626]">
+    <section className="py-24 md:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         <div className="mx-auto mb-16 max-w-2xl text-center">
           <span className="text-xs uppercase tracking-[0.3em] text-accent">De ce eu</span>
