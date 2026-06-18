@@ -4,7 +4,7 @@ export function Hero() {
   return (
     <section
       id="top"
-      className="relative flex min-h-screen items-end justify-center overflow-hidden bg-background pt-28 pb-16"
+      className="hero-animated-bg relative flex min-h-screen items-end justify-center overflow-hidden pt-28 pb-16"
     >
       {/* Massive background typography */}
       <div className="pointer-events-none absolute inset-0 flex flex-col items-center justify-center px-4 z-[1]">
