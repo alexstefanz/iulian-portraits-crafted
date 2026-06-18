@@ -10,7 +10,7 @@ export function Hero() {
       <div className="pointer-events-none absolute inset-0 flex flex-col items-center justify-center px-4 z-[1]">
         <h1
           aria-hidden
-          className="font-display font-bold leading-[0.85] text-center whitespace-nowrap"
+          className="font-display font-light leading-[0.85] text-center whitespace-nowrap"
           style={{ fontSize: "clamp(3.5rem, 16vw, 18rem)" }}
         >
           <span className="block text-white/[0.06]">POVEȘTILE</span>
